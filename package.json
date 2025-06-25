@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3002",
+    "dev": "concurrently --kill-others \"node server/index.js\" \"next dev -p 3002\"",
     "build": "next build",
     "start": "next start -p 3002",
     "lint": "next lint",
@@ -30,5 +30,8 @@
     "typescript": "5.2.2",
     "utf-8-validate": "^6.0.5",
     "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
   }
 }
