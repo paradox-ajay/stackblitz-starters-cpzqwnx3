@@ -34,7 +34,8 @@ const words = [
   'elephant', 'penguin', 'dragon', 'rocket', 'sandwich', 'umbrella', 'lighthouse',
   'dinosaur', 'spaceship', 'treasure', 'volcano', 'waterfall', 'keyboard', 'headphones',
   'telescope', 'microscope', 'hamburger', 'ice cream', 'birthday cake', 'christmas tree',
-  'snowman', 'fireworks', 'hot air balloon', 'roller coaster', 'ferris wheel', 'carousel'
+  'snowman', 'fireworks', 'balloon', 'roller coaster', 'ferris wheel', 'bike',
+  'apple', 'mobile', 'chair', 'table', 'window', 'android'
 ];
 
 class GameRoom {

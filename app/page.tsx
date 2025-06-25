@@ -29,7 +29,7 @@ export default function Home() {
         <div className="text-center mb-8">
           <div className="flex items-center justify-center mb-4">
             <Palette className="text-purple-600 mr-2" size={40} />
-            <h1 className="text-4xl font-bold text-gray-800">Scribble.io</h1>
+            <h1 className="text-4xl font-bold text-gray-800">Scribbly</h1>
           </div>
           <p className="text-gray-600">Draw, guess, and have fun with friends!</p>
         </div>

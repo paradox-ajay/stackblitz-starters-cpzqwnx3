@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Scribble.io Clone - Draw and Guess Game',
+  title: 'Scribbly - Draw and Guess Game',
   description: 'A real-time multiplayer drawing and guessing game built with Next.js and Socket.io',
 };
 
